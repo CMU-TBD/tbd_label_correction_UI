@@ -14,7 +14,7 @@ To edit the app1.mlapp file and to make sure everything runs correctly, you need
 **UPLOADING FILES**
 
 * **NEW** - We can now upload a video file parameter through the terminal instead of using the upload button to upload a video. Type into terminal
-            (in the same directory as 'app1.mlapp') app1(<path to video>)
+            (in the same directory as 'app1.mlapp') app1('path to video')
 
 There are three buttons in the top left corner of the window that are for uploading files.
 * **Upload Video** - This button is for uploading the video with the plotted trajectories drawn onto it. This is the video that the user will see and transform the trajectories of. Files with type .mp4 and .avi are accepted.
