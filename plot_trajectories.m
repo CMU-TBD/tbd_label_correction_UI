@@ -3,7 +3,7 @@ function [] = plot_trajectories(vid_name, save_fname, traj_file)
     load(traj_file, 'trajectories', 'traj_starts');
     v_read = VideoReader(vid_name);
     v_write = VideoWriter(save_fname);
-    v_write.FrameRate = 10;
+    v_write.FrameRate = 30;
     interval = round(v_read.FrameRate / v_write.FrameRate);
     open(v_write);
     vid_idx = 0;
@@ -22,7 +22,7 @@ function [] = plot_trajectories(vid_name, save_fname, traj_file)
     color_set = cell(1, num_ped);
     mask_set = cell(1, num_ped);
     for i = 1:num_ped
-        mask_set{i} = zeros(v_read.Height, v_read.width, 3, "uint8");
+        mask_set{i} = zeros(v_read.Height, v_read.Width, 3, "uint8");
     end
     curr_pt_set = zeros(num_ped, 2);
     
