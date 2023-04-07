@@ -22,12 +22,7 @@
     <fileset.web.main>
       <file>${PROJECT_ROOT}/human_data_labeling.mlapp</file>
     </fileset.web.main>
-    <fileset.resources>
-      <file>${PROJECT_ROOT}/example.mat</file>
-      <file>${PROJECT_ROOT}/example_detections.avi</file>
-      <file>${PROJECT_ROOT}/example_raw.avi</file>
-      <file>${PROJECT_ROOT}/standard_colors.mat</file>
-    </fileset.resources>
+    <fileset.resources />
     <fileset.depfun />
     <fileset.package />
     <build-deliverables>
