@@ -1,5 +1,5 @@
 # TBDLab-UI
-Modification of code from https://github.com/flawlesscorzo/TBD-Research
+Modification of code from [https://github.com/flawlesscorzo/TBD-Research](https://github.com/YasserCorzo/TBD-Research)
 
 **GETTING STARTED**
 
